@@ -1,0 +1,276 @@
+A1Solution > java Assig1B
+
+Welcome to the Movie DB Program
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+5
+Here is the DB: 
+
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+1
+Please enter the file name:
+bogusData.txt
+File bogusData.txt was not found
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+1
+Please enter the file name:
+movieData.dat
+File movieData.dat has been restored
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+5
+Here is the DB: 
+
+Title: Blade Runner
+Release: Fri Jun 25 00:00:00 EDT 1982
+Length: 117:0
+Gross: $32,868,943.00
+ 
+Title: Jaws
+Release: Fri Jun 20 00:00:00 EDT 1975
+Length: 124:0
+Gross: $260,000,000.00
+ 
+Title: Star Wars
+Release: Wed May 25 00:00:00 EDT 1977
+Length: 121:0
+Gross: $460,935,665.00
+ 
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+6
+Here is the DB: 
+
+Title: Star Wars
+Release: Wed May 25 00:00:00 EDT 1977
+Length: 121:0
+Gross: $460,935,665.00
+ 
+Title: Jaws
+Release: Fri Jun 20 00:00:00 EDT 1975
+Length: 124:0
+Gross: $260,000,000.00
+ 
+Title: Blade Runner
+Release: Fri Jun 25 00:00:00 EDT 1982
+Length: 117:0
+Gross: $32,868,943.00
+ 
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+3
+Title of movie? The Princess Bride
+The Princess Bride could not be found
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+2
+Title of movie? The Princess Bride
+Release date? (mm/dd/yyyy) 10/09/1987
+Length of movie? (minutes:seconds) 98:0
+Gross? 30857814
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+3
+Title of movie? The Princess Bride
+Your movie is: 
+Title: The Princess Bride
+Release: Fri Oct 09 00:00:00 EDT 1987
+Length: 98:0
+Gross: $30,857,814.00
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+2
+Title of movie? The Princess Bride
+The Princess Bride is already in the DB
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+5
+Here is the DB: 
+
+Title: Blade Runner
+Release: Fri Jun 25 00:00:00 EDT 1982
+Length: 117:0
+Gross: $32,868,943.00
+ 
+Title: Jaws
+Release: Fri Jun 20 00:00:00 EDT 1975
+Length: 124:0
+Gross: $260,000,000.00
+ 
+Title: Star Wars
+Release: Wed May 25 00:00:00 EDT 1977
+Length: 121:0
+Gross: $460,935,665.00
+ 
+Title: The Princess Bride
+Release: Fri Oct 09 00:00:00 EDT 1987
+Length: 98:0
+Gross: $30,857,814.00
+ 
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+4
+Title of movie? This is Spinal Tap
+This is Spinal Tap could not be found
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+4
+Title of movie? Jaws
+The movie: 
+Title: Jaws
+Release: Fri Jun 20 00:00:00 EDT 1975
+Length: 124:0
+Gross: $260,000,000.00
+ has been removed
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+5
+Here is the DB: 
+
+Title: Blade Runner
+Release: Fri Jun 25 00:00:00 EDT 1982
+Length: 117:0
+Gross: $32,868,943.00
+ 
+Title: Star Wars
+Release: Wed May 25 00:00:00 EDT 1977
+Length: 121:0
+Gross: $460,935,665.00
+ 
+Title: The Princess Bride
+Release: Fri Oct 09 00:00:00 EDT 1987
+Length: 98:0
+Gross: $30,857,814.00
+ 
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+7
+DB has been saved to file movieData.dat
+
+Please choose an option:
+	1) Restore the Movies from a file
+	2) Add a new Movie
+	3) Search for a Movie
+	4) Delete a Movie
+	5) Show Movies in sorted order
+	6) Show Movies in reverse sorted order
+	7) Save Movies back to file
+	8) Quit the program
+8
+
+Good-bye!
+

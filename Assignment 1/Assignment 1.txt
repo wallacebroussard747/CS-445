@@ -1,0 +1,116 @@
+
+CS/COE 0445 Spring 2014 Assignment 1
+
+ 
+
+Online: Wednesday, January 15, 2014
+
+Due: All files (see below for list) zipped into a single .zip file and submitted properly to the submission site by 11:59PM on Wednesday, January 29, 2014 (Note: See separate document for submission instructions / requirements)
+
+Late Due Date: Friday, January 31, 2014
+
+ 
+
+Purpose: To refresh your Java programming skills and to emphasize the object-oriented programming approach used in Java.  Specifically, you will work with interfaces, polymorphism, and a simple array-based data structure.
+
+ 
+
+Goal: To design and implement a simple class MyDB<T> that will act as a data base for accessing Java Objects.   To test this class you will also write a Movie class and a menu-driven main program which allows the user to manipulate a simple database of Movies.  Your MyDB<T> class will primarily implement 4 interfaces – SimpleDB<T>, Reverser, Sorter and SaveRestore.  The details of these interfaces are explained in the files SimpleDB.java, Reverser.java, Sorter.java and SaveRestore.java.  Read these files over very carefully before implementing your MyDB<T> class.
+
+ 
+
+Details: 
+
+For the details on the functionality of your MyDB<T> class, carefully read over the files SimpleDB.java, SaveRestore.java, Reverser.java, Sorter.java and Assig1A.java provided on the Web site.  You must use these files as specified and cannot remove/alter any of the code that is already written in them.  There are different ways of implementing the various interface methods, some of which are more efficient than others.  Try to think of the best way of implementing these methods in this assignment, but the most important thing at this point is getting them to work.  I recommend a LOT of pencil and paper work before actually starting to write your code.  Later we will discuss the relative merits of different implementations.
+
+ 
+
+To implement the SaveRestore methods you will need to review Java files and their use thoroughly, in particular ObjectOutputStream and ObjectInputStream.  You will also have to review exceptions, since they must be dealt with during I/O operations.  You may have to look up some of this information on the Java web site using the Java API, and you may need some trial and error before completing the methods correctly.  There is also information on object streams and exceptions in Chapter 11 of the Gaddis text. Figuring out how to correctly read and write objects is part of the work of this assignment.
+
+ 
+
+After you have finished your coding, the Assig1A.java file should compile and run correctly as given to you, and should give output IDENTICAL to the output shown in the sample execution: A1AOutput.txt.
+
+ 
+
+The details of your Movie class are left up to you.  However, minimally, it must have / include the following:
+
+-      A title
+
+-      A date of release
+
+-      A running time in minutes and seconds
+
+-      A toString() method and an equals() method, defined as expected
+
+-      An implementation of the Comparable interface, comparing in some logical way
+
+-      An implementation of the Serializable interface
+
+The Serializable interface does not require any methods, as long as all of your instance variables are primitive types or also Serializable.  This interface allows Movie objects to be read and written using the readObject() method (from ObjectInputStream) and the writeObject() method (from ObjectOutputStream). 
+
+Your main program should be called Assig1B and be in file Assig1B.java.  This program should have a menu driven loop which allows the user to do each of the following options:
+
+1)    Restore the MyDB of Movies from a file of Movie objects.  If the file does not exist it should gracefully inform the user of this fact.
+
+2)    Add a new Movie to the list.  This should prompt the user for the new Movie data and then add it to the MyDB.  If the Movie already exists (based on its key value), tell the user and do not add it.
+
+3)    Search for and return a Movie from the MyDB.  The user should enter a key value identifying the Movie and if present the Movie should be returned and printed out.  If not present, a note to that effect should be output.
+
+4)    Delete a Movie from the MyDB.  The key and search process should be the same as in 3) above, but in this case IN ADDITION to being returned, the Movie should be removed from the MyDB.
+
+5)    Show the Movies in sorted order.
+
+6)    Show the Movies in reverse sorted order.
+
+7)    Save the MyDB back to the file.
+
+8)    Quit the program.
+
+Carefully think about each of these required operations.  If you look at the functionality of the MyDB class (based on its implemented interfaces) you will note that most of the work for most of these options can be accomplished simply by a method call from within the MyDB object.  Do not redo work that you have already done!
+
+ 
+
+You must submit the following 9 files for full credit:
+
+            SimpleDB.java
+
+            Reverser.java
+
+            Sorter.java
+
+            SaveRestore.java
+
+            Assig1A.java
+
+the above five files are given to you and must not be altered in any way.
+
+MyDB.java
+
+Movie.java
+
+Assig1B.java
+
+movieData.dat
+
+the first three above files must written by you so that they work as described.  The movieData.dat file should be a file of Movie objects that you have generated during the testing of your program.  This will enable the TA to restore the Movie DB without having to type in completely new data for each student.
+
+ 
+
+The idea from your submission is that your TA can compile and run your program WITHOUT ANY additional files, so be sure to test it thoroughly before submitting it.  If you cannot get the programs working as given, clearly indicate any changes you made and clearly indicate why (ex: "I could not get the SaveRestore interface to work, so I eliminated code that used it") on your Assignment Information Sheet.
+
+ 
+
+Don't forget to comment your code and don't forget to submit a completed assignment information sheet with your other files.
+
+ 
+
+If you want to do some extra credit, here are a couple of ideas:
+
+-      Add a graphical interface to the program to improve the look and feel.  This can vary greatly in complexity, and the extra credit awarded will be based on the work done and the end result.
+
+-      Have MyDB<T> implement an additional interface that you make up yourself.  The method(s) should be non-trivial, and should be commented thoroughly. 
+
+If you choose either of these extra credit options, you must write an additional driver program, Assig1C.java, which tests them thoroughly.  Up to 10 extra credit points can be earned on this assignment.
+
+ 
